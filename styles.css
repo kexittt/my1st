@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+/* * {
+    padding: 0;
+    margin: 0;
+} */
+
+body {
+    background-color: #f1f1f1;
+    color: #0f141e;
+    
+    font-size: 16px;  /* Размер (высота) шрифта */
+    font-weight: normal;  /* Жирность шрифта */
+    font-family: 'Poppins', sans-serif;  /*Тип шрифта */
+}
+
+textarea.blabla {
+    width:  300px;
+    height: 100px;
+}
+
+.Picture {
+    width: 200px;
+    border-radius: 28px;
+    box-shadow: 4px 4px 14px rgba(0, 0, 0, 0.25);
+}
+
+.container {
+    max-width: 750px; /* Максимальная ширина сайта, есть просто max, но он не адаптируется */
+    margin: auto; /* сайт по центру */
+}
+
+.container h3 {
+    text-align: center;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: grey;
+}
+
+.comm {
+    text-align: center;
+    color: #86898f;
+    font-size: small;
+}
+
+.info p {
+    color: #86898f;
+    margin: 0;
+    font-style: italic;
+    /* text-transform: uppercase; */
+    /* text-decoration: line-through; */
+    /* word-spacing: 40px;
+    letter-spacing: 5px; */
+}
+
+.button {
+    background: #111;
+    padding: 15px 20px;
+    color: #fff;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    margin-left: 350px;
+}
+
+.button:hover {
+    opacity: 0.9;
+}
+
+/* .social {
+    background: rgb(200, 222, 248);
+    padding: 10px, 15px;  /* отступ сверху, снизу (ПАДДИНГ - отступ от края блока до контента) 
+    padding: 15px, 10px, 30px, 20px; - Верх, право, низ, лево*/
+    /* border: 5px solid red;  паддинг-бордер-марджин *(от внутр к внешн границам) */
+    /* margin: 5px;  паддинг-бордер-марджин */
+    /* text-align: center; */
+    /* color: #000;
+    font-size: 13px;
+
+    border-bottom-style: dotted;
+    border-top-width: 15px;
+    border-right-color:blue;
+} */
+
+.bg-yellow {
+    background: #fff9dc;
+    border: 15px solid #fff9dc;
+}
+
+.bg-green {
+    background: #e5ffe7;
+    border: 15px solid #e5ffe7;
+}
+
+.bg-red {
+    background: #ffe5e5;
+    border: 15px solid #ffe5e5;
+}
+
+.card {
+    padding: 15px, 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+
+.info {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+    .info {
+        text-align: center;
+        display: block;
+    }
+}
+
+.info-text {
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+.list {
+    padding: 0 20px;
+    list-style: none; /* убрать точки в списке */
+}
+
+.list li {
+    /* color: #86898f; */
+    margin-bottom: 10px;
+    /* border-bottom: ; */
+}
+
+.table {
+    width: 100%;
+}
+
+.table td {
+    padding-bottom: 10px;
+}
+
+.table tr:nth-child(even) {
+    background: rgb(255, 193, 193);
+}
+
+.list-link {
+    text-align: center;
+    list-style: none;
+    padding: 0;
+}
+
+.list-link li {
+    margin-bottom: 10px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ccc;
+}
+
+.form-group label{
+    display: block;
+    font-size: 14px;
+    color: #86898f;
+}
+
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid #ccc;
+    color: #000;
+    padding: 15px 0px 10px;
+    outline: none;
+    font-family: inherit;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.row > .form-group {
+    width: 50%;
+    margin-right: 20px;
+}
+
+/* Position */
+/* 
+.position {
+    position: relative;
+    border: 4px solid #000;
+    margin-top: 40px;
+    padding: 20px;
+    height: 300px;
+}
+
+.box {
+    position: fixed; /* постоянная кнопка на экране (крепление на экране устройства) 
+    bottom: 50px;
+    right: 50px;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background: greenyellow;
+} */
