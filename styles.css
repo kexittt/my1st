@@ -65,17 +65,22 @@ a:visited {
 
 .button {
     background: #111;
-    padding: 15px 20px;
+    padding: 15px 15px;
     color: #fff;
     border: none;
     font-family: inherit;
     cursor: pointer;
-    margin-left: 350px;
+    max-width: 100px;
 }
 
 .button:hover {
     opacity: 0.9;
 }
+
+.btn {
+    text-align: center;
+}
+
 
 /* .social {
     background: rgb(200, 222, 248);
@@ -217,8 +222,8 @@ a:visited {
     height: 300px;
 } */
 
-/* .box {
-    position: fixed; /* постоянная кнопка на экране (крепление на экране устройства)  */
+ /*.box {
+    position: fixed; /* постоянная кнопка на экране (крепление на экране устройства); static; absolute */
     /* bottom: 50px;
     right: 50px;
     border-radius: 50%;
